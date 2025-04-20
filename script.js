@@ -6,7 +6,7 @@ let hitrn = 0;
 function makebubble() {
     let store = ' '
 
-    for (let i = 0; i <= 200; i++) {
+    for (let i = 0; i <= 118; i++) {
         let rndm = Math.floor(Math.random() * 10)
         store += `<div class="bubble">${rndm}</div>`
     }
